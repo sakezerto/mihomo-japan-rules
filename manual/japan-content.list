@@ -1,0 +1,25 @@
+# Japanese content / regional services
+# Mihomo domain-provider wildcard format.
+# +.example.com matches example.com and its subdomains.
+
+# Manga / eBook
++.manga.line.me
++.bookwalker.jp
++.comic-walker.com
++.magazinepocket.com
++.booklive.jp
++.manga-one.com
++.comic-days.com
++.shonenjumpplus.com
++.pocket.shonenmagazine.com
++.s-manga.net
++.manga-kingdom.com
++.ebookjapan.yahoo.co.jp
+
+# Japan-region games / game services
++.cygames.jp
++.api.games.umamusume.jp
++.konosubafd.jp
++.colorfulpalette.org
++.worldflipper.jp
++.jujutsuphanpara.jp
