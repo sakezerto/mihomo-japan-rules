@@ -1,6 +1,13 @@
 name: Update Japan rules
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update.yml"
+      - "scripts/build_rules.py"
+      - "manual/japan-content.list"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
