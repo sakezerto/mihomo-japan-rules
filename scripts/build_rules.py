@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MANUAL_FILE = ROOT / "manual" / "japan-content.list"
 OUTPUT_FILE = ROOT / "rules" / "japan-only.list"
 
-DOMAIN_RE = re.compile(r"^(?:[A-Za-z0-9_-]+\\.)+[A-Za-z]{2,}$")
+DOMAIN_RE = re.compile(r"^(?:[A-Za-z0-9_-]+\.)+[A-Za-z]{2,}$")
 TEST_MARKER = "ru1353t.1s.m4d3.by.5ukk4w.skk.moe"
 REQUIRED_RULES = {
     "+.dmm.com",
