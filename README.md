@@ -19,7 +19,7 @@ rule-providers:
     type: http
     behavior: domain
     format: text
-    url: "https://raw.githubusercontent.com/sakezerto/mihomo-japan-rules/main/rules/japan-only.list"
+    url: "https://raw.githubusercontent.com/sakezerto/mihomo-japan-rules/refs/heads/main/rules/japan-only.list"
     path: ./ruleset/japan-only.list
     interval: 86400
 
