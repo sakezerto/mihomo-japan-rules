@@ -39,7 +39,7 @@ jobs:
           grep -Fxq '+.bookwalker.jp' rules/japan-only.list
           grep -Fxq '+.manga.line.me' rules/japan-only.list
 
-          rule_count="$(grep -Ec '^\+?([A-Za-z0-9_-]+\.)+[A-Za-z]{2,}$' rules/japan-only.list || true)"
+          rule_count="$(grep -Ev '^(#|[[:space:]]*$)' rules/japan-only.list | wc -l)
           echo "Generated rule count: $rule_count"
 
           if [ "$rule_count" -lt 25 ]; then
